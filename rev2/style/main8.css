@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+img{
+    height: 300pxpx;
+    width: 150px;
+}
+body{
+    background-color: rgb(39, 39, 39);
+   
+}
+/* h2{
+    height: 40px;
+}
+p{
+    height: 100px;
+/* } */ 
+
+img{
+    cursor: pointer;
+    height: 400px;
+}
+.caption{
+    
+    background-color: rgb(125, 101, 97);
+    position: absolute;
+    bottom: 25px; 
+     width: 80%;
+     left: 10%;
+     height: 20vh;
+    
+
+}
+.col-md-4{
+    position: relative;
+
+}
+
+.containerBox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgBox{
+    width: 50%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/malek-bee-PiUDMOkQyBY-unsplash.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99999999;
+}
+
+.imgBox i{
+    color: aliceblue;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 20px;
+    
+}
